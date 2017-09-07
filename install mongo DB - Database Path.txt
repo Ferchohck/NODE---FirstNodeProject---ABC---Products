@@ -1,0 +1,17 @@
+poner comando en CMD
+
+C:\nodeapps\MongoDB\bin\mongod.exe --dbpath C:\nodeapps\data\db
+
+
+despues de correr comando abrir mongo.exe
+C:\nodeapps\MongoDB\bin\mongod.exe
+
+
+
+me salio un error de mongo DB al correr server.js
+
+The easiest fix for this; "npm remove mongoose" then "npm install mongoose@4.10.8 --save" problem solved. Upgrading is not always the best option.
+
+
+
+
